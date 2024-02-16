@@ -54,7 +54,7 @@ export const App: React.FC<AppProps> = () => {
 
 export function WrappedApp() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://mypymypy.github.io/react-pokemon-project/'>
       <ErrorBoundary>
         <PokemonContextProvider>
           <App />
