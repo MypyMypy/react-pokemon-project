@@ -1,0 +1,9 @@
+.pokemon {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 3px #cacaca;
+  cursor: pointer;
+}
+
+.pokemon__name::first-letter {
+  text-transform: capitalize;
+}

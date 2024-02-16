@@ -1,0 +1,3 @@
+.ability::first-letter {
+  text-transform: capitalize;
+}

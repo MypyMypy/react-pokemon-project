@@ -1,0 +1,7 @@
+.pokemon-page__pokemon-name {
+  display: inline-block;
+}
+
+.pokemon-page__pokemon-name::first-letter {
+  text-transform: uppercase;
+}

@@ -1,0 +1,20 @@
+.search {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search__search-requests {
+  position: absolute;
+  width: 100%;
+  top: calc(100% + 10px);
+}
+
+.search__input {
+  flex: 1 1 auto;
+}
+
+.search__button {
+  flex: 0 1 100px;
+}
