@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/MypyMypy/react-pokemon-project
+	branch = gh-pages
